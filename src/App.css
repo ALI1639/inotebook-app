@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+/* App.css ya kisi CSS file me */
+.custom-btn {
+  color: white;
+  border: 1px solid white;
+}
+
+.custom-btn:hover {
+  background-color: white;
+  color: #e22222;
+}
+
