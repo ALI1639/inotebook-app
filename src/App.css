@@ -32,10 +32,12 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 /* App.css ya kisi CSS file me */
 .custom-btn {
   color: white;
@@ -47,3 +49,22 @@
   color: #e22222;
 }
 
+img {
+  width: 400px;
+  height: 400px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+    text-align: center;
+}
+
+.heading-center {
+  text-align: center;
+  font-size: 70px;
+  background: linear-gradient(#6cff5f, #ce1039, blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

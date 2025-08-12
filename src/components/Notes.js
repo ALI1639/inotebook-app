@@ -8,11 +8,12 @@ const Notes = (props) => {
   const context = useContext(noteContext);
   const navigate = useNavigate();
   const { notes, getNotes, editNote } = context;
+
   useEffect(() => {
+    // Corrected: if token exists -> fetch notes, otherwise redirect to login
     if (localStorage.getItem('token')) {
-      getNotes()
-    }
-    else {
+      getNotes();
+    } else {
       navigate('/login');
     }
     // eslint-disable-next-line

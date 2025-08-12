@@ -25,4 +25,5 @@ const NoteItem = (props) => {
     )
 }
 
-export default NoteItem
+export default NoteItem;
+
